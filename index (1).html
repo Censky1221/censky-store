@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Censky Store - Toko Digital</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f0f1a;
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+    }
+    .logo {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+    h1 {
+      font-size: 2rem;
+      background: linear-gradient(135deg, #6366f1, #a855f7);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+    .tagline {
+      color: #9ca3af;
+      font-size: 1rem;
+      margin-bottom: 40px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .card {
+      background: #1e1e2e;
+      border: 1px solid #2d2d3d;
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .card .icon { font-size: 28px; margin-bottom: 8px; }
+    .card h3 { font-size: 0.9rem; color: #e5e7eb; }
+    .card p { font-size: 0.75rem; color: #6b7280; margin-top: 4px; }
+    .badge {
+      display: inline-block;
+      background: #16a34a22;
+      border: 1px solid #16a34a55;
+      color: #4ade80;
+      padding: 6px 16px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      margin-bottom: 32px;
+    }
+    .cta {
+      display: inline-block;
+      background: linear-gradient(135deg, #6366f1, #a855f7);
+      color: white;
+      padding: 14px 32px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: opacity 0.2s;
+    }
+    .cta:hover { opacity: 0.85; }
+    .footer {
+      margin-top: 48px;
+      color: #4b5563;
+      font-size: 0.75rem;
+    }
+    .payment-icons {
+      margin-top: 24px;
+      color: #6b7280;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">🛒</div>
+    <h1>Censky Store</h1>
+    <p class="tagline">Toko digital terpercaya — produk dikirim otomatis</p>
+
+    <div class="badge">✅ Toko Aktif & Beroperasi</div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="icon">⚡</div>
+        <h3>Pengiriman Instan</h3>
+        <p>Akun dikirim otomatis setelah pembayaran</p>
+      </div>
+      <div class="card">
+        <div class="icon">🔒</div>
+        <h3>Aman & Terpercaya</h3>
+        <p>Transaksi aman menggunakan payment gateway resmi</p>
+      </div>
+      <div class="card">
+        <div class="icon">💬</div>
+        <h3>Via Telegram</h3>
+        <p>Belanja langsung melalui bot Telegram kami</p>
+      </div>
+      <div class="card">
+        <div class="icon">💰</div>
+        <h3>Harga Terjangkau</h3>
+        <p>Produk digital berkualitas dengan harga terbaik</p>
+      </div>
+    </div>
+
+    <a href="https://t.me/keuanganbotku" class="cta">
+      🛍 Mulai Belanja via Telegram
+    </a>
+
+    <div class="payment-icons">
+      <p>Pembayaran via: QRIS • Transfer Bank • E-Wallet</p>
+    </div>
+
+    <div class="footer">
+      <p>© 2026 Censky Store. All rights reserved.</p>
+      <p style="margin-top:4px">Layanan produk digital otomatis</p>
+    </div>
+  </div>
+</body>
+</html>
